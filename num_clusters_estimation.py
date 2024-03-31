@@ -1,4 +1,4 @@
-import ROA_algorithm as ROA_algorithm
+import DOM_algorithm as DOM_algorithm
 import TSDC_algorithm as TSDC_algorithm
 import Competitive_algorithms as Competitive_algorithms
 import Simulation as Simulation

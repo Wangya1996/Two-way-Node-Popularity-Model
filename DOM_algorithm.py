@@ -11,7 +11,7 @@ def rank_one_approximation_error(block_1):
     rank1_error=np.power(np.linalg.norm(block_1-rank1_test),2)
     return rank1_error
 
-def ROA_algorithm(data_1,C,Z,K_1,K_2,n,m,arr_vector_1,arr_vector_2,steps=5000,tolerance=0.001):
+def DOM_algorithm(data_1,C,Z,K_1,K_2,n,m,arr_vector_1,arr_vector_2,steps=5000,tolerance=0.001):
     '''
     data_1:data matrix
     C:vector of out-community assignment
